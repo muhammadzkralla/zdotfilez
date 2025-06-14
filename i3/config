@@ -223,4 +223,4 @@ default_floating_border pixel 4
 # Screenshot with selection tool
 bindsym $mod+Print exec --no-startup-id flameshot gui
 # Screenshot entire screen
-bindsym Print exec --no-startup-id scrot ~/Pictures/screenshot_%Y-%m-%d-%H%M%S.png
+bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot_%Y-%m-%d-%H%M%S.png
