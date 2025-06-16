@@ -1,6 +1,8 @@
 # Z Dotfilezzzzz
 
-A Linux Workflow Heavily Based on i3wm, kitty, tmux, zsh, neovim, and more. 🥷😴
+## Introduction
+
+My Personal Snappy Cozy Yappy Linux Workflow Heavily Based on i3wm, kitty, tmux, zsh, neovim, and More CLIs for Maximum Coding Productivity Flow Sessions. 🥷🏔️
 
     -i3wm
     -kitty
@@ -14,6 +16,7 @@ A Linux Workflow Heavily Based on i3wm, kitty, tmux, zsh, neovim, and more. 🥷
     -lazygit
 
 ---
+## Preview
 
 ![img1](images/img1.png) <hr>
 ![img2](images/img2.png) <hr>
