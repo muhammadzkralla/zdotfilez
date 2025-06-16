@@ -1,0 +1,29 @@
+[window]
+dynamic_title = true
+opacity = 0.7
+dynamic_padding = true
+
+[window.padding]
+x = 20
+y = 20
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
+size = 12.5
+
+
+[selection]
+save_to_clipboard = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[general]
+
+live_config_reload = true
+
+# import = ["~/.config/alacritty/rice-colors.toml"]
