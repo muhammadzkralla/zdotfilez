@@ -1,0 +1,6 @@
+configuration {
+  drun-display-format: "{icon} {name}";
+  show-icons: true;
+  font: "Hack Nerd Font 12";
+  width: 40;
+}

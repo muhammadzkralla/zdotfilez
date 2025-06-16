@@ -1,0 +1,74 @@
+* {
+    font: "Hack Nerd Font 16";
+
+    background-color: transparent;
+    text-color: @fg0;
+    margin:  0px;
+    padding: 0px;
+    spacing: 0px;
+}
+
+window {
+    location: center;
+    width: 640;
+    border-radius: 32px;
+    background-color: @bg0;
+}
+
+mainbox {
+    padding: 24px;
+}
+
+/* Search field */
+inputbar {
+    background-color: @bg1;
+    border-color: @bg3;
+    border: 3px;
+    border-radius: 20px;
+    padding: 12px 24px;
+    spacing: 12px;
+}
+
+prompt { text-color: @fg2; }
+
+entry  {
+    placeholder: "Search";
+    placeholder-color: @fg3;
+}
+
+/* Message bar (rarely displayed) */
+message {
+    margin: 18px 0 0;
+    border-radius: 20px;
+    border-color: @bg2;
+    background-color: @bg2;
+}
+
+/* List of entries */
+listview {
+    background-color: transparent;
+    margin: 24px 0 0;
+    lines: 10;
+    columns: 1;
+}
+
+element {
+     /* taller rows */
+    padding: 12px 24px;
+    spacing: 12px;
+    border-radius: 20px;
+}
+
+element normal active,
+element alternate active { text-color: @bg3; }
+
+element selected normal,
+element selected active   { background-color: @bg3; }
+
+/* Icons two chars high so they scale with font‑size */
+element-icon {
+    size: 1.2em;
+    vertical-align: 0.5;
+}
+
+element-text { text-color: inherit; }
