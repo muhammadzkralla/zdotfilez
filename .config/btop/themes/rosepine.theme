@@ -1,0 +1,56 @@
+
+# Rose‑Pine "No‑Clown‑Fiesta" theme for btop
+# Place this file in ~/.config/btop/themes/rosepine.theme
+# Load via:  Esc → Options → Theme → rosepine
+
+# ─── Palette ─────────────────────────────────────────────
+# Rose‑Pine Moon palette adapted for ­btop
+
+# Background & foreground
+foreground          = 0xe0def4  # text
+background          = 0x1f1d2e  # mantle
+background_alt      = 0x161320  # crust (for 2nd bg rows)
+cursor              = 0xf6c177  # peach / accent
+
+# Primary accents
+color0              = 0x26233a  # surface0 (graphs)
+color1              = 0xf6c177  # yellow / peach (CPU bar)
+color2              = 0x31748f  # green / teal (Mem bar)
+color3              = 0xeb6f92  # red / maroon  (Temp / alerts)
+color4              = 0xc4a7e7  # mauve / lavender (Net bar)
+color5              = 0x9ccfd8  # sapphire / sky (Disk bar)
+color6              = 0x6e6a86  # overlay1 (dim fg)
+color7              = 0x908caa  # overlay0 (mid fg)
+
+# Graph gradients (from low → high)
+# cpu_gradient_0‑3
+cpu_color_gradient  = 0x31748f 0x5095b0 0x89c2d0 0xf6c177
+# mem_gradient_0‑3
+mem_color_gradient  = 0x9ccfd8 0xc6e8f0 0xf6c177 0xeb6f92
+
+# Highlight
+selected_bg         = 0x26233a
+selected_fg         = 0xf6c177
+
+# Borders & separators
+border_color        = 0x2a273f
+box_color           = 0x2a273f
+
+# Battery / sensors
+battery_color       = 0x31748f  # teal
+
+# Process list
+proc_misc           = 0x908caa  # headings (PID, MEM%)
+proc_cpu            = 0xf6c177  # CPU %
+proc_mem            = 0x31748f  # MEM %
+proc_graph          = 0x26233a  # tiny graphs bg
+
+# Status strings
+process_run         = 0x31748f  # running
+process_sleep       = 0x6e6a86  # sleeping
+process_zombie      = 0xeb6f92  # zombie
+
+# Clock
+clock_color         = 0xc4a7e7
+
+# ─── End of theme ───
