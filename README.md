@@ -24,4 +24,8 @@ My Personal Snappy Cozy Yappy Linux Workflow Heavily Based on i3wm, kitty, tmux,
 ![img4](images/img4.png) <hr>
 ![img5](images/img5.png) <hr>
 ![img6](images/img6.png) <hr>
-![img6](images/img7.png) <hr>
+![img7](images/img7.png) <hr>
+
+## Actual Workflow
+
+![img8](images/img8.png) <hr>
