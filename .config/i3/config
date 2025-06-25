@@ -15,7 +15,7 @@ exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id i3-autolayout autolayout
 exec_always --no-startup-id sh -c "sleep 1 && xrandr --output HDMI-1-1 --mode 1920x1080 --above eDP"
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/background1.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/background3.jpeg
 exec --no-startup-id xss-lock -- i3lock -c 000000
 
 # Font for window titles. Will also be used by the bar unless a different font
