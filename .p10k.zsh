@@ -354,11 +354,11 @@ typeset -g POWERLEVEL9K_DIR_FOREGROUND=0                  # Black (for contrast)
 
   #####################################[ vcs: git status ]######################################
   # Version control background colors.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND=198          # Hot Pink
-    typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=211       # Light Rose
-    typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=217      # Pale Pink
-    typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=161     # Reddish-pink
-    typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8          # Gray
+typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND=65     # Muted moss green
+typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=101 # Desaturated mauve
+typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=60 # Slate blue
+typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=88 # Rusty maroon
+typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=238  # Graphite gray
 
   # Branch icon. Set this parameter to '\UE0A0 ' for the popular Powerline branch icon.
   typeset -g POWERLEVEL9K_VCS_BRANCH_ICON='\uF126 '
